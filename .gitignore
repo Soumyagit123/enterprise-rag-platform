@@ -1,0 +1,33 @@
+# Environments
+.env
+.env*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node/Frontend
+node_modules/
+.next/
+out/
+build/
+dist/
+.eslintcache
+
+# Docker volumes and local data
+redis_data/
+rabbitmq_data/
+prometheus_data/
+uploads/
+/tmp/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
